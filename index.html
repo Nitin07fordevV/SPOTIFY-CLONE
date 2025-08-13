@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="output.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        .your-class {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body class="m-0 p-0 bg-black text-white font-poppins your-class">
+
+    <div id="container" class="flex ">
+        <div id="left" class="w-[25vw]  flex flex-col m-1   gap-1">
+            <div id="home " class="flex flex-col gap-4 bg-neutral-900 rounded m-2 p-3">
+                <div id="logo"><img src="assets/logo.svg" class="invert-100" alt=""></div>
+                <ul class="flex flex-col gap-4">
+                    <li class="w-[34px] flex items-center gap-2 "><img src="assets/home.svg" class="invert-100"
+                            alt="">Home</li>
+                    <li class="w-[34px] flex items-center gap-2"><img src="assets/search.svg" class="invert-100"
+                            alt="">Search</li>
+                </ul>
+            </div>
+            <div id="library" class="bg-neutral-800 rounded m-2 p-3 flex flex-col relative h-[75vh]">
+                <div id="heading" class="flex gap-3 items-center justify-between w-[420px] ">
+                    <div id="" class="flex gap-3 items-center">
+                        <img src="assets/playlist.svg" class="w-[25px] invert-100" alt="">
+                        <span>Your Library</span>
+                    </div>
+                    <div id="corner">
+                        <span class="text-3xl font-extralight">+</span>
+                    </div>
+                </div>
+                <div id="footer-links"
+                    class=" flex flex-wrap gap-4 font-light text-sm text-gray-400  p-2.5 absolute bottom-0">
+                    <a href="https://www.spotify.com/in-en/legal/" class="hover:underline">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/" class="hover:underline">Safety & Privacy
+                        Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="hover:underline">Privacy
+                        Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="hover:underline">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="hover:underline">About
+                        Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility/" class="hover:underline">Accessibility</a>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <div id="right" class="m-1  w-[75vw] flex flex-col">
+            <div id="heading " class="flex justify-between p-2">
+                <div id="nav " class="p-2">
+                    <div id="hamburgerContainer" class="flex gap-1">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div id="buttons" class="flex items-center gap-2 text-sm">
+                    <button>Sign up</button>
+                    <button class="bg-white p-4 text-black rounded-4xl px-8">Login</button>
+                </div>
+            </div>
+            <div id="body" class="bg-neutral-900 h-[75vh] w-[99.5%] rounded p-2 flex flex-col">
+                <div id="spotifyPlayliSts" class="text-normal flex justify-between">
+                    <h2 class="text-xl">Spotify PlayLists</h2>
+                    <span class="text-sm">Show All</span>
+                </div>
+                <div id="card-container" class="p-2 flex ">
+                    
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                    <div id="card" class="w-[200px] flex flex-col hover:bg-neutral-800 p-2 rounded gap-1">
+                        <img src="assets/cover.jpg" class="rounded" alt="">
+                        <span class="text-center">Happy Hits!</span>
+                        <p class="text-sm font-light text-center">Lorem ipsum dolor, sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
